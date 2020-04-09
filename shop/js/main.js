@@ -18,9 +18,9 @@ function goodsOut(data) {
     var out = '';
     for (var key in data){
         out +='<div class="cart">';
-        out +=`<button class="later" data-id="${key}">&hearts;</button>`;
-        out +=`<p class="name"><a href="goods.html#${key}">${data[key].name}</a></p>`;
-        out +=`<img src="images/${data[key].img}" alt="">`;
+        out +=`<img class="later" src="css/icons/heart.png" data-id="${key}" alt="">`;
+        out +=`<p class="name"><a href="goods.html#${key}" >${data[key].name}</a></p>`;
+        out +=`<img class="image" src="images/${data[key].img}" alt="">`;
         out +=`<div class="cost">${data[key].cost}</div>`;
         out +=`<button class="add-to-cart" data-id="${key}">Купить</button>`;
         out +='</div>';

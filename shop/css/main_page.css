@@ -1,0 +1,43 @@
+body{
+    font-family: Lucida, sans-serif;
+}
+
+.page{
+    background: darkgray;
+    display: flex;
+}
+
+.menu_side{
+    background: #F2F2F2;
+    width: 25vw;
+    min-width: 220px;
+    height: 60vw;
+    margin: 1%;
+}
+
+.goods{
+    background: #D9CCC1;
+    width: 75vw;
+    height: 60vw;
+    margin: 1% 3% 1% 1%;
+}
+
+footer{
+    background: #262626;
+    height: 10vw;
+}
+
+
+
+@media screen and (max-width: 800px){
+
+.page{
+    display: block;
+}
+
+.menu_side, .goods{
+    width: 100%;
+    margin: 0;
+}
+
+}

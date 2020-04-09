@@ -2,23 +2,61 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main_page.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <title>Shop</title>
 </head>
 <body>
 
-    <header></header>
+    <header>
+        <section class="header_top">
+            <input class="search" type="text" placeholder="Поиск по сайту" required="">
+            <input class="add_letter" type="button" onclick="" value="Новое объявление">
+            <input class="login" type="button" onclick="" value="Вход">
+        </section>
 
-    <main>
-        <div class="mini-cart"></div>
+        <section class="header_bottom">
+            <H1>TWB - Trading Without Borders</H1>
+            <H3>Объявлений: хиз скока</H3>
+            <input class="sort" type="button" onclick="" value="По дате">
+            <a href="later.html" class="link">Желания</a><br>
+            <a href="cart.html" class="link">Корзина</a>
+        </section>
+    </header>
 
-        <a href="later.html">Желания</a><br>
-        <a href="cart.html">Корзина</a>
+    <section class="page">
 
-        <div class="goods-out"></div>
-    </main>
+        <section class="menu_side">
+            <ul class="nav">
+                <li class="main-menu">
+                    <a href>Главное меню</a>
+                </li>
+                <li class="catalogue">
+                    <a href>Каталог</a>
+                    <a href>Item 1</a>
+                    <a href>Item 2</a>
+                    <a href>Item 3</a>
+                </li>
+                <li class="blog">
+                    <a href>Блог</a>
+                    <a href>Item 1</a>
+                    <a href>Item 2</a>
+                    <a href>Item 3</a>
+                </li>
+                <li class="settings">
+                    <a href>Настройки</a>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="goods" link="red" vlink="#cecece">
+            <div class="mini-cart"></div>
+            <div class="goods-out"></div>
+        </section>
+    </section>
 
     <footer></footer>
 

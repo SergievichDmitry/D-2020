@@ -19,7 +19,7 @@ function goodsOut(data) {
         for (var key in later){
             out +='<div class="cart">';
             out +=`<p class="name">${data[key].name}</p>`;
-            out +=`<img src="images/${data[key].img}" alt="">`;
+            out +=`<img class="image" src="images/${data[key].img}" alt="">`;
             out +=`<div class="cost">${data[key].cost}</div>`;
             out +=`<a href="goods.html#${key}">Просмотреть</a>`;
             out +='</div>';

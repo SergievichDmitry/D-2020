@@ -22,7 +22,7 @@ function goodsOut(data) {
         out += '<div class="cart">';
         out += `<button class="later" data-id="${data.id}">&hearts;</button>`;
         out += `<p class="name">${data.name}</p>`;
-        out += `<img src="images/${data.img}" alt="">`;
+        out += `<img class="image" src="images/${data.img}" alt="">`;
         out += `<div class="cost">${data.cost}</div>`;
         out += `<button class="add-to-cart" data-id="${data.id}  ">Купить</button>`;
         out += '</div>';

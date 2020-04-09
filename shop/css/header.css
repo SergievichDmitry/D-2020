@@ -1,0 +1,84 @@
+header{
+    background: #8C7F77;
+    height: 12vw;
+    padding: 1%;
+}
+
+.header_top{
+    padding: 0 0 2%;
+    justify-content: space-around;
+    display: flex;
+    height: 40px;
+    background: #D9CCC1;
+}
+
+.search{
+    padding: 1%;
+    width: 20%;
+}
+
+/*.add_letter{*/
+    /*display: flex;*/
+    /*background: #f26253;*/
+    /*border-radius: 6px;*/
+    /*padding: 7px 25px;*/
+    /*color: white;*/
+    /*border: none;*/
+    /*font-family: Lucida, sans-serif;*/
+    /*font-size: 14px;*/
+/*}*/
+
+/*.login{*/
+    /*display: flex;*/
+    /*background: #f26253;*/
+    /*border-radius: 6px;*/
+    /*padding: 7px 25px;*/
+    /*color: white;*/
+    /*border: none;*/
+    /*font-family: Lucida, sans-serif;*/
+    /*font-size: 14px;*/
+/*}*/
+
+/*.sort{*/
+    /*display: flex;*/
+    /*background: #f26253;*/
+    /*border-radius: 6px;*/
+    /*padding: 7px 25px;*/
+    /*color: white;*/
+    /*border: none;*/
+    /*font-family: Lucida, sans-serif;*/
+    /*font-size: 14px;*/
+/*}*/
+
+.header_middle{
+    padding: 0 0 2%;
+    justify-content: space-around;
+    display: flex;
+    height: 40px;
+    background: #f21abf;
+}
+
+.header_middle p{
+    border: 1px solid #3e42f2;
+    padding: 5px 20px 22px;
+}
+
+.header_middle input{
+    display: flex;
+    background: #f2c1ac;
+    border-radius: 6px;
+    margin-top: 1%;
+    padding: 5px 25px;
+    color: white;
+    border: none;
+    font-family: Lucida, sans-serif;
+    font-size: 14px;
+}
+
+.header_bottom{
+    padding: 0 0 2%;
+    justify-content: space-around;
+    display: flex;
+    height: 40px;
+    background: #F2F2F2;
+}
